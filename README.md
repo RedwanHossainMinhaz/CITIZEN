@@ -29,7 +29,6 @@ npm run preview   # optional: preview the production build locally
 
 | Role  | Email               | Password  |
 |-------|----------------------|-----------|
-| Admin | admin@citizen.bd     | admin123  |
 | User  | demo@citizen.bd      | demo1234  |
 
 Admin login is a separate page at `/admin/login` (linked from the regular
@@ -104,13 +103,3 @@ before real users sign up you should:
    base64 data URLs in `localStorage`.
 4. Add server-side authorization checks for every admin action — the
    `AdminRoute` component only guards the UI, not a real API.
-
-## Deploying to GitHub Pages
-
-1. Push this project to a GitHub repo.
-2. `npm install -D gh-pages`, add `"homepage": "https://<user>.github.io/<repo>"`
-   and a `"deploy": "gh-pages -d dist"` script to `package.json`.
-3. `npm run build && npm run deploy`.
-
-(Or just connect the repo to Vercel/Netlify — no extra config needed for
-either.)
