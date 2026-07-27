@@ -1,3 +1,4 @@
+import React from 'react';
 import { createContext, useContext, useEffect, useState } from 'react';
 import { loadCollection, saveCollection } from '../utils/storage';
 import { useAppData } from './AppDataContext';

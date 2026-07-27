@@ -1,3 +1,4 @@
+import React from 'react';
 import { createContext, useContext, useEffect, useState } from 'react';
 import { loadCollection, saveCollection, uid, clearAllData } from '../utils/storage';
 import { SEED_USERS, SEED_POSTS, SEED_COMPLAINTS, SEED_SETTINGS } from '../data/seed';

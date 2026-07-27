@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://redwanhossainminhaz.github.io/CITIZEN",
   "description": "CITIZEN - a civic engagement platform (frontend-only demo with local admin panel)",
  "scripts": {
   "dev": "vite",
